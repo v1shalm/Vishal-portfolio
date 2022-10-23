@@ -19,7 +19,7 @@ export default function Projects() {
 						<div key={index} className="p-6  mb-6 hover:drop-shadow-xl">
 							<div className="h-min overflow-hidden rounded-md ">
 								<Image
-									className=" hover:rounded-xl  hover:scale-105 transition-all duration-500 rounded-xl"
+									className=" hover:rounded-xl  hover:scale-105 transition-all duration-500 rounded-lg"
 									src={item.image}
 									width={900}
 									height={500}
@@ -34,7 +34,7 @@ export default function Projects() {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<h3 className="text-3xl group  font-semibold flex flex-row gap-3 ">
+									<h3 className="  lg:text-3xl text-2xl  group  font-medium flex flex-row gap-3 ">
 										{item.title}
 										<RiArrowRightUpLine
 											size="1.2em"
