@@ -28,7 +28,7 @@ export default function Home() {
 								? data.songUrl
 								: "https://open.spotify.com/user/mauryav518?si=3af39fdb2c3f4c44"
 						}
-						className="relative flex w-72 items-center space-x-4 rounded-md border p-5 transition-shadow hover:shadow-md"
+						className="relative flex w-72 items-center space-x-4 rounded-md  p-5 transition-shadow hover:shadow-md"
 					>
 						<div className="w-16 flex justify-center items-center">
 							{data?.isPlaying ? (
