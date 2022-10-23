@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
 	return (
 		<div className="container px-4 mx-auto relative ">
-			<div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left ">
+			<div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-left ">
 				<motion.div className="lg:px-4 lg:mt-12">
 					<h1 className="text-6xl  lg:text-8xl  font-extrabold  text-black dark:text-white ">
 						I enjoy{" "}
@@ -25,7 +25,7 @@ const Hero = () => {
 						<p className=" pl-2 mb-4 lg:text-lg ">
 							I am a Frontend Developer based in India with a knack for building
 							things. Through constant learning and creation, I produce
-							aesthetic software to the highest standard.
+							aesthetic applications to the highest standard.
 						</p>
 					</div>
 				</motion.div>
