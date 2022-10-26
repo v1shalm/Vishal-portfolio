@@ -12,7 +12,7 @@ export default function Projects() {
 					{projects.title}
 				</h2>
 			</div>
-			<p className="text-lg">{projects.desc}</p>
+			<p className="text-lg ">{projects.desc}</p>
 			<div className=" mt-1">
 				{projects.projects.map((item, index, image, tags) => {
 					return (
@@ -42,7 +42,21 @@ export default function Projects() {
 										/>
 									</h3>
 								</a>
-								<p className=" mb-2 mt-2  text-lg">{item.desc}</p>
+								<p className=" mb-2 mt-2 text-gray-800 dark:text-gray-200  text-lg">
+									{item.desc}
+								</p>
+							</div>
+							<div className=" m-2 mt-4 flex flex-1 gap-2 ">
+								{item.tags.map((tags) => {
+									return (
+										<p
+											key={tags}
+											className=" text-sm lg:text-md  rounded-3xl	lg:py-3 py-2   px-3 lg:px-4 bg-[#262626] hover:bg-black dark:hover:bg-[#4e4e4e]  text-white  font-medium  transition duration-500 "
+										>
+											{tags}
+										</p>
+									);
+								})}
 							</div>
 
 							<div className="flex items-center flex-wrap  pt-5  group  ">

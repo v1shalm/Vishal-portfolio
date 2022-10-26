@@ -19,7 +19,7 @@ export default function Home() {
 				{console.log(data)}
 				<Hero />
 				<Projects />
-				<div className="ml-10 ">
+				<div className=" ">
 					<a
 						target="_blank"
 						rel="noopener noreferer noreferrer"
@@ -33,7 +33,7 @@ export default function Home() {
 						<div className="w-16 flex justify-center items-center">
 							{data?.isPlaying ? (
 								<img
-									className="w-16 shadow-sm"
+									className="w-16 rounded-md shadow-sm"
 									src={data?.albumImageUrl}
 									alt={data?.album}
 								/>

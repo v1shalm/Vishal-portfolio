@@ -16,7 +16,7 @@ export const projects = {
 			desc: "Snappy is an image-sharing social media app built with ReactJS, TailwindCSS and Sanity. ",
 			image: "/static/projects/snappy_1.png",
 			link: "https://snappyy.netlify.app",
-			tags: ["React", "NextJS", "SCSS", "API"],
+			tags: ["React", "TailwindCSS", "Sanity"],
 		},
 
 		{
@@ -25,7 +25,7 @@ export const projects = {
 			desc: "A blog app made with Next Js, Tailwind CSS and GraphCMS.",
 			image: "/static/projects/img1.png",
 			link: "https://v1shalm-blog.vercel.app",
-			tags: ["HTML", "CSS", "Javascript", "Gumroad"],
+			tags: ["NextJS", "TailwindCSS", "GraphCMS" ],
 		},
 
 		{
@@ -34,7 +34,7 @@ export const projects = {
 			desc: "Ecommerce app built with Next.js , Sanity and Stripe.",
 			image: "/static/projects/ecommerce.png",
 			link: "https://sickclothing.vercel.app",
-			tags: ["Node", "Javascript", "NPM", "HTML"],
+			tags: [ "NextJS", "TailwindCSS", "Sanity", "Stripe"],
 		},
 		{
 			id: 3,
@@ -42,7 +42,7 @@ export const projects = {
 			desc: "Youtube clone built with React.js , Material UI and Youtube API.",
 			image: "/static/projects/Yt-clone.png",
 			link: "https://clone-yt.vercel.app",
-			tags: ["React", "NextJS", "TailwindCSS", "CSS", "Firebase"],
+			tags: ["React", "Material UI", "API"],
 		},
 
 		{
@@ -51,7 +51,7 @@ export const projects = {
 			desc: "A Google Search Clone made with React JS, Tailwind CSS and Google Search API.",
 			image: "/static/projects/Searchify.png",
 			link: "https://searchify-app.netlify.app",
-			tags: ["React", "CSS", "JSON"],
+			tags: ["React", "TailwindCSS", "API"],
 		},
 
 		// {
