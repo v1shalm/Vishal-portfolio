@@ -59,7 +59,7 @@ export default function Projects() {
 								})}
 							</div>
 
-							<div className="flex items-center flex-wrap  pt-5  group  ">
+							<div className="flex items-center flex-wrap  pt-5  group  pl-2">
 								{item.link && (
 									<a
 										href={item.link}
@@ -67,7 +67,7 @@ export default function Projects() {
 										target="_blank"
 										rel="noreferrer"
 									>
-										<span className="ml-2 py-1 text-lightText  transition-colors duration-200 flex flex-row gap-3 ">
+										<span className="ml-2 py-1 text-lightText  transition-colors duration-200 flex flex-row gap-3   ">
 											{item.link.replace("https://", " ")}
 											<RiArrowRightUpLine
 												size="1.5em"
