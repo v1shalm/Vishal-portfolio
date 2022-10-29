@@ -8,7 +8,7 @@ const Hero = () => {
 		<div className="container px-4 mx-auto relative ">
 			<div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-left  ">
 				<motion.div className="lg:px-4 lg:mt-12 bg-cover bg-hero-pattern  ">
-					<h1 className="text-6xl  lg:text-8xl  font-extrabold  text-black dark:text-white  ">
+					<h1 className="text-6xl  lg:text-8xl   font-extrabold  text-black dark:text-white  ">
 						I enjoy{" "}
 						<span className="text-transparent bg-clip-text bg-[#3B46F1]">
 							building{" "}
@@ -16,7 +16,7 @@ const Hero = () => {
 						and{" "}
 						<span className="text-transparent bg-clip-text bg-[#66F270]">
 							{" "}
-							designing
+							developing
 						</span>{" "}
 						for the web.
 					</h1>
