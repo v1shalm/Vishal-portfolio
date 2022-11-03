@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
-import Image from "next/future/image";
 import useSWR from "swr";
 import {SiSpotify} from 'react-icons/si'
+import Image from "next/image";
 
 export default function Home() {
 	const fetcher = (url) => fetch(url).then((r) => r.json());
@@ -19,7 +19,7 @@ export default function Home() {
 				{console.log(data)}
 				<Hero />
 				<Projects />
-				<div className=" ">
+				<div className="  mt-8 ">
 					<a
 						target="_blank"
 						rel="noopener noreferer noreferrer"
@@ -28,11 +28,11 @@ export default function Home() {
 								? data.songUrl
 								: "https://open.spotify.com/user/mauryav518?si=3af39fdb2c3f4c44"
 						}
-						className="relative flex w-72 items-center space-x-4 rounded-md  p-5 transition-shadow hover:shadow-md"
+						className="relative flex w-72 items-center space-x-4 rounded-md  p-5 transition-shadow hover:shadow-lg"
 					>
 						<div className="w-16 flex justify-center items-center">
 							{data?.isPlaying ? (
-								<img
+								<Image
 									className="w-16 rounded-md shadow-sm"
 									src={data?.albumImageUrl}
 									alt={data?.album}

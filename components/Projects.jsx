@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
-import Image from "next/future/image";
+
+import Image from "next/image";
 import { RiArrowRightUpLine } from "react-icons/ri";
 import { projects } from "../data/project";
 import Link from "next/link";
@@ -28,7 +28,7 @@ export default function Projects() {
 								/>
 							</div>
 							<div className=" pl-2 mt-6">
-								<a
+								<Link
 									href={item.link}
 									className="cursor-pointer hover:underline underline-offset-4"
 									target="_blank"
@@ -41,7 +41,7 @@ export default function Projects() {
 											className="dark:text-[#d6d6d6] text-[#111111]   group-hover:rotate-45 transition duration-300 group-hover:translate-x-2"
 										/>
 									</h3>
-								</a>
+								</Link>
 								<p className=" mb-2 mt-2 text-gray-800 dark:text-gray-200  text-lg">
 									{item.desc}
 								</p>
@@ -61,7 +61,7 @@ export default function Projects() {
 
 							<div className="flex items-center flex-wrap  pt-5  group  pl-2">
 								{item.link && (
-									<a
+									<Link
 										href={item.link}
 										className="flex items-center rounded-full py-2 px-2 bg-[#262626] text-[#d9d9d9]  font-medium  hover:bg-[#151515]  dark:hover:bg-[#4e4e4e] transition duration-500 "
 										target="_blank"
@@ -75,7 +75,7 @@ export default function Projects() {
 												className="mr-2 group-hover:rotate-45 transition duration-300 group-hover:translate-x-2"
 											/>
 										</span>
-									</a>
+									</Link>
 								)}
 							</div>
 						</div>
