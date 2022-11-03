@@ -32,7 +32,7 @@ export default function Home() {
 					>
 						<div className="w-16 flex justify-center items-center">
 							{data?.isPlaying ? (
-								<Image
+								<img
 									className="w-16 rounded-md shadow-sm"
 									src={data?.albumImageUrl}
 									alt={data?.album}

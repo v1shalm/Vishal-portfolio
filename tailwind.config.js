@@ -10,9 +10,6 @@ module.exports = {
 			sans: ["Work Sans", "sans-serif"],
 		},
 		extend: {
-			backgroundImage: {
-				"hero-pattern": "url('/public/static/hero-gradient.jpg')",
-			},
 		},
 	},
 	plugins: [],
