@@ -12,7 +12,7 @@ class MyDocument extends Document {
 					/>
 					<meta
 						name="description"
-						content="I am a Frontend Developer based in India with a knack for building things. In my spare time, I enjoy playing Valorant. I am currently looking for front-end development jobs."
+						content="I am a Frontend Developer based in India with a knack for building things. Through constant learning and creation, I produce aesthetic applications to the highest standard."
 					/>
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
