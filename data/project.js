@@ -12,6 +12,14 @@ export const projects = {
 	projects: [
 		{
 			id: 0,
+			title: "Spotify Clone",
+			desc: "A music streaming  app made with ReactJS, Redux ,TailwindCSS and Shazam Core API.",
+			image: "/static/projects/spotify.png",
+			link: "https://github.com/v1shalm/spotify_clone",
+			tags: ["React", "Redux", "TailwindCSS", "API"],
+		},
+		{
+			id: 1,
 			title: "Snappy",
 			desc: "Snappy is an image-sharing social media app built with ReactJS, TailwindCSS and Sanity. ",
 			image: "/static/projects/snappy_1.png",
@@ -20,24 +28,24 @@ export const projects = {
 		},
 
 		{
-			id: 1,
+			id: 2,
 			title: "Blog app",
 			desc: "A blog app made with Next Js, Tailwind CSS and GraphCMS.",
 			image: "/static/projects/img1.png",
 			link: "https://v1shalm-blog.vercel.app",
-			tags: ["NextJS", "TailwindCSS", "GraphCMS" ],
+			tags: ["NextJS", "TailwindCSS", "GraphCMS"],
 		},
 
 		{
-			id: 2,
+			id: 3,
 			title: "Sick Clothing",
 			desc: "Ecommerce app built with Next.js , Sanity and Stripe.",
 			image: "/static/projects/ecommerce.png",
 			link: "https://sickclothing.vercel.app",
-			tags: [ "NextJS", "TailwindCSS", "Sanity", "Stripe"],
+			tags: ["NextJS", "TailwindCSS", "Sanity", "Stripe"],
 		},
 		{
-			id: 3,
+			id: 4,
 			title: "Youtube Clone",
 			desc: "Youtube clone built with React.js , Material UI and Youtube API.",
 			image: "/static/projects/Yt-clone.png",
@@ -46,22 +54,13 @@ export const projects = {
 		},
 
 		{
-			id: 4,
+			id: 5,
 			title: "Searchify",
 			desc: "A Google Search Clone made with React JS, Tailwind CSS and Google Search API.",
 			image: "/static/projects/Searchify.png",
 			link: "https://searchify-app.netlify.app",
 			tags: ["React", "TailwindCSS", "API"],
 		},
-
-		// {
-		// 	id: 0,
-		// 	title: "Convo",
-		// 	desc: "A Chat app made with React JS , Firebase with Social Authentication such as Google and Facebook.",
-		// 	image: "/static/projects/Convo.png",
-		// 	link: "https://conv0.netlify.app",
-		// 	tags: ["React", "NextJS", "TailwindCSS", "CSS", "Firebase"],
-		// },
 	],
 };
 
@@ -69,6 +68,14 @@ export const allprojects = {
 	title: "All Projects",
 	desc: "Here are some of my favorite projects that I've worked on.",
 	projects: [
+		{
+			id: 4,
+			title: "Spotify Clone",
+			desc: "A music streaming and exploration app made with ReactJS, TailwindCSS and Shazam Core API.",
+			image: "/static/projects/spotify.png",
+			link: "https://github.com/v1shalm/spotify_clone",
+			tags: ["React", "Redux", "TailwindCSS", "API"],
+		},
 		{
 			id: 0,
 			title: "Snappy",
@@ -120,15 +127,6 @@ export const allprojects = {
 			image: "/static/projects/Convo.png",
 			link: "https://conv0.netlify.app",
 			tags: ["React", "NextJS", "TailwindCSS", "CSS", "Firebase"],
-		},
-
-		{
-			id: 7,
-			title: "Searchify",
-			desc: "A Google Search Clone made with React JS, Tailwind CSS and Google Search API.",
-			image: "/static/projects/Searchify.png",
-			link: "https://searchify-app.netlify.app",
-			tags: ["React", "CSS", "JSON"],
 		},
 	],
 };
