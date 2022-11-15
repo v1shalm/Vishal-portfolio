@@ -27,7 +27,7 @@ export default function Projects() {
 									alt={projects.title}
 								/>
 							</div>
-							<div className=" pl-2 mt-6">
+							<div className=" lg:pl-2 pl-0 mt-6">
 								<Link
 									href={item.link}
 									className="cursor-pointer hover:underline underline-offset-4"
