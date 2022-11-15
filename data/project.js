@@ -15,7 +15,7 @@ export const projects = {
 			title: "Spotify Clone",
 			desc: "A music streaming  app made with ReactJS, Redux ,TailwindCSS and Shazam Core API.",
 			image: "/static/projects/spotify.png",
-			link: "https://github.com/v1shalm/spotify_clone",
+			link: "https://spotify-clonev1.vercel.app",
 			tags: ["React", "Redux", "TailwindCSS", "API"],
 		},
 		{
