@@ -43,7 +43,7 @@ export default function Projects() {
 									{item.desc}
 								</p>
 							</div>
-							<div className=" m-2 mt-4 flex flex-1 gap-2 ">
+							<div className="  mt-4 flex flex-1 gap-2 ">
 								{item.tags.map((tags) => {
 									return (
 										<p
