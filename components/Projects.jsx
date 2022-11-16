@@ -27,7 +27,7 @@ export default function Projects() {
 									alt={projects.title}
 								/>
 							</div>
-							<div className=" lg:pl-2 pl-0 mt-6">
+							<div className=" lg:pl-2 pl-0  mt-6">
 								<Link
 									href={item.link}
 									className="cursor-pointer hover:underline underline-offset-4"
@@ -36,10 +36,7 @@ export default function Projects() {
 								>
 									<h3 className="  lg:text-3xl text-2xl  group  font-medium flex flex-row gap-3 ">
 										{item.title}
-										<RiArrowRightUpLine
-											size="1.2em"
-											className="dark:text-[#d6d6d6] text-[#111111]   group-hover:rotate-45 transition duration-300 group-hover:translate-x-2"
-										/>
+
 									</h3>
 								</Link>
 								<p className=" mb-2 mt-2 text-gray-800 dark:text-gray-200  text-lg">
