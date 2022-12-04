@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
 						"I am a Frontend Developer based in India with a knack for building things. Through constant learning and creation, I produce aesthetic applications to the highest standard.",
 					images: [
 						{
-							url: "/portfolio.png",
+							url: "https://res.cloudinary.com/v1shalm/image/upload/v1670141261/v1shal-OG_moenh4.png",
 							width: 800,
 							height: 420,
 							alt: "Vishal Maurya",
