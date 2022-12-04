@@ -14,7 +14,10 @@ class MyDocument extends Document {
 						name="description"
 						content="I am a Frontend Developer based in India with a knack for building things. Through constant learning and creation, I produce aesthetic applications to the highest standard."
 					/>
-					<meta property="og:image" content="../portfolio.png" />
+					<meta
+						property="og:image"
+						content="https://res.cloudinary.com/v1shalm/image/upload/v1670140139/portfolio_igp2tq.png"
+					/>
 
 					<meta
 						name="google-site-verification"
