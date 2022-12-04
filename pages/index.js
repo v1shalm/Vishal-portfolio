@@ -16,7 +16,6 @@ export default function Home() {
 			</Head>
 
 			<main className="max-w-4xl mx-auto mt-16 antialiased">
-				{console.log(data)}
 				<Hero />
 				<Projects />
 				<div className="  mt-8 ">

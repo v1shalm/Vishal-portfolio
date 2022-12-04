@@ -3,6 +3,8 @@ import Image from "next/image";
 import profile from "../public/static/profile.png";
 import { motion } from "framer-motion";
 
+
+
 const Hero = () => {
 	return (
 		<div className="container px-4 mx-auto relative ">
@@ -29,6 +31,7 @@ const Hero = () => {
 					</div>
 				</motion.div>
 			</div>
+
 		</div>
 	);
 };
