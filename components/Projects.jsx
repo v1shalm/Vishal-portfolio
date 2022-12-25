@@ -16,7 +16,7 @@ export default function Projects() {
 			<div className=" mt-1">
 				{projects.projects.map((item, index, image, tags) => {
 					return (
-						<div key={index} className="mb-6 hover:drop-shadow-xl">
+						<div key={index} className=" mt-12 mb-6 hover:drop-shadow-xl">
 							<div className="h-min overflow-hidden rounded-md ">
 								<Image
 									className=" hover:rounded-xl  hover:scale-105 transition-all duration-500 rounded-lg"
