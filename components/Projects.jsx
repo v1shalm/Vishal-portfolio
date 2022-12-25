@@ -16,7 +16,7 @@ export default function Projects() {
 			<div className=" mt-1">
 				{projects.projects.map((item, index, image, tags) => {
 					return (
-						<div key={index} className="p-6  mb-6 hover:drop-shadow-xl">
+						<div key={index} className="mb-6 hover:drop-shadow-xl">
 							<div className="h-min overflow-hidden rounded-md ">
 								<Image
 									className=" hover:rounded-xl  hover:scale-105 transition-all duration-500 rounded-lg"
@@ -56,7 +56,7 @@ export default function Projects() {
 								})}
 							</div>
 
-							<div className="flex items-center flex-wrap  pt-5  group  pl-2">
+							<div className="flex items-center flex-wrap  pt-5  group ">
 								{item.link && (
 									<Link
 										href={item.link}
